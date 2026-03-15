@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <h2>New Event Creation Page</h2>
+  <input type = "file" name="thumbnail" accept="image/*">
+  <input type = "name" name = "event-title" placeholder="Event Title"><br>
+  <textarea name="description" id="" cols="22" rows="10" placeholder="Description"></textarea><br>
+  <input type = 'name' name = "event-dep" placeholder="Organizing Department"><br>
+  <input type = 'name' name = "event-hod" placeholder="Organizing Dept. HOD"><br>
+  <input type = 'name' name = "event-venue" placeholder="Event Venue"><br>
+  Last Date: <input type="date" name="last-date"><br>
+  <input type = "name" name="programs" placeholder="Enter the program names following by a comma(,)"><br>
+  <textarea name="rules" id="" cols="22" rows="10" placeholder="Program rules "></textarea><br>
+  <button onclick="addOpt()">Submit</button>
+  <script>
+    function addOpt(){
+      alert("Submitted Successfully");
+    }
+  </script>
+</body>
+
+</html>
